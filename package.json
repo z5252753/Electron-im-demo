@@ -1,0 +1,33 @@
+{
+  "name": "electron-im",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview",
+    "rebuild": "electron-rebuild -f -w better-sqlite3"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.6",
+    "@vitejs/plugin-vue": "^5.2.1",
+    "@vue/tsconfig": "^0.7.0",
+    "better-sqlite3": "^11.7.2",
+    "electron": "^33.3.1",
+    "electron-builder": "^25.1.8",
+    "electron-rebuild": "^3.2.9",
+    "knex": "^3.1.0",
+    "pinia": "^2.3.0",
+    "sass-embedded": "^1.83.3",
+    "scss": "^0.2.4",
+    "typescript": "~5.6.2",
+    "vite": "^6.0.5",
+    "vite-plugin-optimizer": "^1.4.3",
+    "vue": "^3.5.13",
+    "vue-router": "4",
+    "vue-tsc": "^2.2.0",
+    "fs-extra": "^11.2.0"
+  },
+  "dependencies": {
+  }
+}
